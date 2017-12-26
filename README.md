@@ -16,7 +16,7 @@ And download [docker-sbcl-seccomp.json](https://raw.githubusercontent.com/daewok
 
 ### Usage:
 
-The below will run the default SBCL and the Swank server on port 4005.  The `-p` option maps the localhost's port 4005 to the container's port 4005.  The `--security-opt` option will stop the WARNING from SBCL due to the seccomp constraint.
+The below will run the default SBCL and the Swank server on port 4005.  The `-p` option maps the localhost's port 4005 to the container's port 4005.  The `--security-opt` option will stop the WARNING message from SBCL due to the seccomp constraint.
 
 `$ docker run -it --rm -p 4005:4005 --security-opt seccomp=dockers/docker-sbcl-seccomp.json wshito/sbcl-swank`
 
