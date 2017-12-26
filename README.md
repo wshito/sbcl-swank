@@ -14,7 +14,7 @@ Docker Hub: [wshito/sbcl-swank](https://hub.docker.com/r/wshito/sbcl-swank/)
 
 ### Usage:
 
-The below will run the default SBCL and swank server on port 4005.  The localhost's port 4005 is also mapped to container's port 4005.
+The below will run the default SBCL and the Swank server on port 4005.  The localhost's port 4005 is also mapped to container's port 4005.
 
 `$ docker run -it --rm -p 4005:4005 wshito/sbcl-swank`
 
