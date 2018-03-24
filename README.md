@@ -20,4 +20,4 @@ The below will run the default SBCL and the Swank server on port 4005.  The `-p`
 
 `$ docker run -it --rm -p 4005:4005 --security-opt seccomp=./docker-sbcl-seccomp.json wshito/sbcl-swank`
 
-You can connect to the swank server from Emacs by `M-x slime-connect` and choose localhost's port 4005.  The quitting the sessin by typing the comma with `sayoonara` will disconnect the server and the container will shutdown.
+You can connect to the swank server from Emacs by `M-x slime-connect` and choose localhost's port 4005.  The quitting the session by typing the comma with `sayoonara` will disconnect the server and the docker container will shutdown.
